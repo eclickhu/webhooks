@@ -1,5 +1,5 @@
 {
-    "name": "fof/webhooks",
+    "name": "eclickhu/webhooks",
     "description": "Flarum with webhooks",
     "keywords": [
         "flarum"
@@ -7,8 +7,8 @@
     "type": "flarum-extension",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/FriendsOfFlarum/webhooks/issues",
-        "source": "https://github.com/FriendsOfFlarum/webhooks",
+        "issues": "https://github.com/eclickhu/webhooks/issues",
+        "source": "https://github.com/eclickhu/webhooks",
         "forum": "https://discuss.flarum.org/d/17812"
     },
     "homepage": "https://friendsofflarum.org",
