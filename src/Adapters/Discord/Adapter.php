@@ -76,6 +76,6 @@ class Adapter extends \FoF\Webhooks\Adapters\Adapter
      */
     public static function isValidURL(string $url): bool
     {
-        return preg_match('/^https?:\/\/(?:\w+\.)?discord(?:app)?\.com\/api\/webhooks\/\d+?\/.+$/', $url);
+        return preg_match("/\b(?:(?:https?|ftp):\/\/|www\.)[-a-z0-9+&@#\/%?=~_|!:,.;]*[-a-z0-9+&@#\/%=~_|]/i", $url);
     }
 }
